@@ -1,0 +1,43 @@
+{
+  "name": "google-sso",
+  "version": "1.0.0",
+  "description": "Implement Google SSO with NodeJS/Typescript and ReactJS",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "concurrently -k -n \"Typescript,Node\" -p \"[{name}]\" -c   \"blue,green\" \"tsc --watch\" \"nodemon dist/index.js\"",
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophieSpacee/Google-SSO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sophieSpacee/Google-SSO/issues"
+  },
+  "homepage": "https://github.com/sophieSpacee/Google-SSO#readme",
+  "dependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/express-session": "^1.17.4",
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/mongoose": "^5.11.97",
+    "@types/passport": "^1.0.7",
+    "@types/passport-local": "^1.0.34",
+    "concurrently": "^6.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.0",
+    "passport-google-token": "^0.1.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
