@@ -3,13 +3,13 @@ Implement Google SSO with NodeJS/Typescript and ReactJS
 
 ## Launch this project
 
-Clone this repository on your computer
+1- Clone this repository on your computer
 
 ```console
 git clone git@github.com:sophieSpacee/Google-SSO.git
 ```
 
-Go to the Backend folder and run
+2- Go to the Backend folder 
 
 ```console
 npm install
@@ -20,14 +20,14 @@ Complete the .env file with :
 * Your Google Client password 
 * Your MongoDB URL  
 
-Run
 
 ```console
 npm run dev
 ```
 
+Leave your backend server running, and open a new Terminal.
 
-Go to the Frontend folder and run
+3- Go to the Frontend folder 
 
 ```console
 npm install
@@ -35,8 +35,6 @@ npm install
 
 Complete the .env file with :
 * Your Google Client ID
-
-Run
 
 ```console
 npm start
