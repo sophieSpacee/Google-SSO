@@ -1,6 +1,8 @@
 # Google-SSO
 Implement Google SSO with NodeJS/Typescript and ReactJS
 
+![1_QzaMpOtp8uI7OhQ7kvqqJg](https://user-images.githubusercontent.com/72617821/147596610-32adb592-6889-4311-a02e-1e194259b81d.gif)
+
 ## Launch this project
 
 1- Clone this repository on your computer
